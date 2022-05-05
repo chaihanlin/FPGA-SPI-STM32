@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Tue Sep 28 19:17:43 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : adc
+Top-level Entity Name : ad
+Family : Cyclone IV E
+Total logic elements : 1,679
+    Total combinational functions : 822
+    Dedicated logic registers : 1,357
+Total registers : 1357
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 296,960
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

@@ -1,0 +1,10 @@
+
+State Machine - |ad|top:u_top|cs
+Name cs.000000 cs.s5 cs.s4 cs.s3 cs.s2 cs.s1 cs.s0 
+cs.s0 0 0 0 0 0 0 0 
+cs.000000 1 0 0 0 0 0 1 
+cs.s1 0 0 0 0 0 1 1 
+cs.s2 0 0 0 0 1 0 1 
+cs.s3 0 0 0 1 0 0 1 
+cs.s4 0 0 1 0 0 0 1 
+cs.s5 0 1 0 0 0 0 1 

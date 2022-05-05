@@ -1,0 +1,286 @@
+# Reading D:/Quartus18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do adc_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD {D:/Code/c4/AD/ad.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD" D:/Code/c4/AD/ad.v 
+# -- Compiling module ad
+# 
+# Top level modules:
+# 	ad
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD {D:/Code/c4/AD/pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD" D:/Code/c4/AD/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD {D:/Code/c4/AD/ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD" D:/Code/c4/AD/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD {D:/Code/c4/AD/top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD" D:/Code/c4/AD/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD {D:/Code/c4/AD/shifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD" D:/Code/c4/AD/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD {D:/Code/c4/AD/count.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD" D:/Code/c4/AD/count.v 
+# -- Compiling module count
+# 
+# Top level modules:
+# 	count
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD {D:/Code/c4/AD/sck.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD" D:/Code/c4/AD/sck.v 
+# -- Compiling module sck
+# 
+# Top level modules:
+# 	sck
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD/db {D:/Code/c4/AD/db/pll_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:28 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD/db" D:/Code/c4/AD/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 16:34:28 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Code/c4/AD/simulation/modelsim {D:/Code/c4/AD/simulation/modelsim/ad.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:29 on Aug 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Code/c4/AD/simulation/modelsim" D:/Code/c4/AD/simulation/modelsim/ad.vt 
+# -- Compiling module ad_vlg_tst
+# 
+# Top level modules:
+# 	ad_vlg_tst
+# End time: 16:34:29 on Aug 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  ad_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" ad_vlg_tst 
+# Start time: 16:34:29 on Aug 27,2021
+# Loading work.ad_vlg_tst
+# Loading work.ad
+# Loading work.pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.top
+# Loading work.count
+# Loading work.sck
+# Loading work.shifter
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): [TFMPC] - Too few port connections. Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1 File: D:/Code/c4/AD/ad.v
+# ** Error: (vsim-3063) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): Port 'rden' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1 File: D:/Code/c4/AD/ad.v
+# ** Error: (vsim-3063) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): Port 'rst' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1 File: D:/Code/c4/AD/ad.v
+# ** Error: (vsim-3063) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): Port 'wren' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1 File: D:/Code/c4/AD/ad.v
+# ** Warning: (vsim-3722) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): [TFMPC] - Missing connection for port 'rst_n'.
+# ** Warning: (vsim-3722) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): [TFMPC] - Missing connection for port 'mosi'.
+# ** Warning: (vsim-3722) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): [TFMPC] - Missing connection for port 'sck'.
+# ** Warning: (vsim-3722) D:/Code/c4/AD/simulation/modelsim/ad.vt(44): [TFMPC] - Missing connection for port 'nc'.
+# ** Warning: (vsim-3015) D:/Code/c4/AD/ad.v(22): [PCDPC] - Port size (8) does not match connection size (9) for port 'address'. The port definition is at: D:/Code/c4/AD/ram.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1/u_ram File: D:/Code/c4/AD/ram.v
+# ** Warning: (vsim-3015) D:/Code/c4/AD/ad.v(31): [PCDPC] - Port size (1) does not match connection size (12) for port 'spi_data'. The port definition is at: D:/Code/c4/AD/top.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1/u_top File: D:/Code/c4/AD/top.v
+# ** Warning: (vsim-3015) D:/Code/c4/AD/top.v(162): [PCDPC] - Port size (12) does not match connection size (1) for port 'spi_data'. The port definition is at: D:/Code/c4/AD/shifter.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1/u_top/u3 File: D:/Code/c4/AD/shifter.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 19
+vsim work.ad
+# vsim work.ad 
+# Start time: 16:34:29 on Aug 27,2021
+# Loading work.ad
+# Loading work.pll
+# ** Error: (vsim-3033) D:/Code/c4/AD/pll.v(53): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_pll File: D:/Code/c4/AD/pll.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.ram
+# ** Error: (vsim-3033) D:/Code/c4/AD/ram.v(65): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_ram File: D:/Code/c4/AD/ram.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.top
+# Loading work.count
+# Loading work.sck
+# Loading work.shifter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 19
+vsim work.ad
+# vsim work.ad 
+# Start time: 16:34:29 on Aug 27,2021
+# Loading work.ad
+# Loading work.pll
+# ** Error: (vsim-3033) D:/Code/c4/AD/pll.v(53): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_pll File: D:/Code/c4/AD/pll.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.ram
+# ** Error: (vsim-3033) D:/Code/c4/AD/ram.v(65): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_ram File: D:/Code/c4/AD/ram.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.top
+# Loading work.count
+# Loading work.sck
+# Loading work.shifter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 19
+vsim work.ad
+# vsim work.ad 
+# Start time: 16:34:29 on Aug 27,2021
+# Loading work.ad
+# Loading work.pll
+# ** Error: (vsim-3033) D:/Code/c4/AD/pll.v(53): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_pll File: D:/Code/c4/AD/pll.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.ram
+# ** Error: (vsim-3033) D:/Code/c4/AD/ram.v(65): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_ram File: D:/Code/c4/AD/ram.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.top
+# Loading work.count
+# Loading work.sck
+# Loading work.shifter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 19
+vsim work.ad_vlg_tst
+# vsim work.ad_vlg_tst 
+# Start time: 16:34:29 on Aug 27,2021
+# Loading work.ad_vlg_tst
+# Loading work.ad
+# Loading work.pll
+# ** Error: (vsim-3033) D:/Code/c4/AD/pll.v(53): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1/u_pll File: D:/Code/c4/AD/pll.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.ram
+# ** Error: (vsim-3033) D:/Code/c4/AD/ram.v(65): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad_vlg_tst/i1/u_ram File: D:/Code/c4/AD/ram.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.top
+# Loading work.count
+# Loading work.sck
+# Loading work.shifter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 19
+vsim work.count
+# vsim work.count 
+# Start time: 16:34:29 on Aug 27,2021
+# Loading work.count
+vsim work.ad
+# vsim work.ad 
+# Start time: 16:35:06 on Aug 27,2021
+# Loading work.ad
+# Loading work.pll
+# ** Error: (vsim-3033) D:/Code/c4/AD/pll.v(53): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_pll File: D:/Code/c4/AD/pll.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.ram
+# ** Error: (vsim-3033) D:/Code/c4/AD/ram.v(65): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_ram File: D:/Code/c4/AD/ram.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.top
+# Loading work.count
+# Loading work.sck
+# Loading work.shifter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 19
+vsim work.ad
+# vsim work.ad 
+# Start time: 16:35:06 on Aug 27,2021
+# Loading work.ad
+# Loading work.pll
+# ** Error: (vsim-3033) D:/Code/c4/AD/pll.v(53): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_pll File: D:/Code/c4/AD/pll.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.ram
+# ** Error: (vsim-3033) D:/Code/c4/AD/ram.v(65): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ad/u_ram File: D:/Code/c4/AD/ram.v
+#         Searched libraries:
+#             D:/Code/c4/AD/simulation/modelsim/rtl_work
+# Loading work.top
+# Loading work.count
+# Loading work.sck
+# Loading work.shifter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 19
+# End time: 16:35:32 on Aug 27,2021, Elapsed time: 0:00:26
+# Errors: 4, Warnings: 0
