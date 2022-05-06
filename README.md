@@ -1,4 +1,4 @@
 # FPGA-SPI-Master
-FPGA communicate with the stm32
-FPGA intel c4
-stm32 f407  hal
+FPGA as the master 
+stm32 use the HAL as the slave 
+
