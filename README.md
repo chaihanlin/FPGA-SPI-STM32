@@ -1,4 +1,4 @@
 # FPGA-SPI-Master
 FPGA as the master 
-stm32 use the HAL as the slave 
+stm32f407 使用HAL库作从机 
 
